@@ -45,3 +45,22 @@ rmarkdown::render(
            )
 
 ```
+
+```{r, eval = F, echo = F}
+# run to compile one report per column in mtcars
+columns <- colnames(mtcars)
+
+lapply(columns,
+  (\(x)rmarkdown::render(
+                    input = "param_report_example.Rmd",
+                    output_file = paste0(
+                      "param_report_example_", x, ".html"
+                    ),
+                    params = list(
+                      dataset = "mtcars",
+                      var = x
+                    )
+                  )
+  )
+)
+```
