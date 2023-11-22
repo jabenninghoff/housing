@@ -2,3 +2,5 @@
 ^renv\.lock$
 ^dev$
 ^LICENSE\.md$
+^housing\.Rproj$
+^\.Rproj\.user$
