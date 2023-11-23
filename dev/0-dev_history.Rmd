@@ -177,3 +177,14 @@ pkgdown::build_site()
 devtools::build(vignettes = TRUE)
 ```
 
+
+# Targets
+
+Commands from the [targets](https://raps-with-r.dev/targets.html) chapter:
+
+```{r, eval = FALSE}
+# targets::tar_script()
+targets::tar_make()
+targets::tar_load(data_summary)
+```
+
