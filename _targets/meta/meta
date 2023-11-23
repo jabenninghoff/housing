@@ -1,0 +1,5 @@
+name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
+.Random.seed|object|de8449ac1e7ce5cc|||||||||||||||
+data|stem|dcdcc0b2db472ee3|4d28b3ae61066c9f|ef46db3751d8e999|1588979285||t19684.0036743759s|0e097f16d551a674|448|rds|local|vector|||0||
+data_summary|stem|f50ad910392c3691|27fb8de4f4063b0c|94f12c70f9893a3f|1353521754||t19684.0036744931s|e7d9c43b1c994be3|87|rds|local|vector|||0||
+summarize_data|function|47494b9f4fa5f65b|||||||||||||||
